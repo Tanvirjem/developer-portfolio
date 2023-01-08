@@ -146,3 +146,39 @@ main {
     border-radius: 5px;
     padding: 30px;
 }
+
+.resume-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px
+}
+
+.resume-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-button {
+    text-align: center;
+    margin-top: 50px;
+}
