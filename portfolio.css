@@ -17,7 +17,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 51px 226px;
+    padding: 51px 226px;
 }
 
 nav ul {
@@ -181,4 +181,30 @@ main {
 .resume-button {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 113px;
+}
+
+.contact {
+    display: flex;
+    gap: 117px;
+    background: #FFF8F3;
+    padding: 130px 230px;
+
+}
+
+.hello {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+input,
+textarea {
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
 }
